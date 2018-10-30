@@ -12,7 +12,7 @@ while user_string != 'q':
         break
 
     #prints error if there is no comma in the user's string
-    elif user_string.find(',') < 1:
+    elif user_string.count(',') < 1:
         print("Error: No comma in string.")
         print()
 
